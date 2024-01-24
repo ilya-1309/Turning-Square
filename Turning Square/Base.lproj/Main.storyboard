@@ -17,32 +17,32 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BgD-Me-5vh">
-                                <rect key="frame" x="16" y="503" width="398" height="411"/>
+                                <rect key="frame" x="16" y="511" width="398" height="387"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OY5-yc-TF2">
-                                <rect key="frame" x="16" y="74" width="398" height="400"/>
+                                <rect key="frame" x="16" y="74" width="398" height="408"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="OY5-yc-TF2" firstAttribute="height" secondItem="BgD-Me-5vh" secondAttribute="height" multiplier="1.05426" id="9G9-ve-b0o"/>
+                            <constraint firstItem="BgD-Me-5vh" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Cqd-dK-0sY"/>
                             <constraint firstItem="OY5-yc-TF2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Hie-br-0S9"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BgD-Me-5vh" secondAttribute="trailing" constant="16" id="Hjt-5V-R9s"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OY5-yc-TF2" secondAttribute="trailing" constant="16" id="LCZ-aV-RzZ"/>
                             <constraint firstItem="BgD-Me-5vh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="f3Y-YL-GdS"/>
-                            <constraint firstItem="BgD-Me-5vh" firstAttribute="height" secondItem="OY5-yc-TF2" secondAttribute="height" multiplier="1.02817" id="gfv-wK-D6c"/>
-                            <constraint firstAttribute="bottom" secondItem="BgD-Me-5vh" secondAttribute="bottom" constant="18" id="o5f-E5-RHt"/>
                             <constraint firstItem="OY5-yc-TF2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="p7F-ma-HmB"/>
-                            <constraint firstItem="BgD-Me-5vh" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="16" id="uvl-LD-lF8"/>
+                            <constraint firstItem="BgD-Me-5vh" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="rKU-Qb-gx5"/>
                             <constraint firstItem="BgD-Me-5vh" firstAttribute="top" secondItem="OY5-yc-TF2" secondAttribute="bottom" constant="29" id="vgh-Ql-DFR"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="135.1145038167939" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="133.95348837209303" y="3.218884120171674"/>
         </scene>
     </scenes>
     <resources>
